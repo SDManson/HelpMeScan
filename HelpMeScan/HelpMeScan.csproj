@@ -44,9 +44,6 @@
     <Reference Include="BotEngine.Interface">
       <HintPath>..\..\Sanderling\src\Sanderling\Sanderling\bin\Debug\BotEngine.Interface.dll</HintPath>
     </Reference>
-    <Reference Include="LINQPad">
-      <HintPath>C:\Program Files (x86)\LINQPad5\LINQPad.exe</HintPath>
-    </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
@@ -57,14 +54,9 @@
       <HintPath>..\..\Sanderling\src\Sanderling\Sanderling\bin\Debug\Sanderling.Interface.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
@@ -92,6 +84,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bookmarker.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
